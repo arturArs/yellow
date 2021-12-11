@@ -37,7 +37,7 @@ class Example(QMainWindow):
     def draw_flag(self, qp):
         self.coords = randint(0, 450), randint(0, 350)
         qp.setBrush(QColor(255, 255, 0))
-        size_1 = randint(10, 150)
+        size_1 = randint(10, 151)
         self.s1.append((self.coords[0] - size_1 / 2, self.coords[-1] - size_1 / 2, size_1, size_1))
         print(self.s1)
         for i in self.s1:
